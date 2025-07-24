@@ -1,4 +1,4 @@
-public class sumOfDigits {
+public class SumOfDigits {
 
     // Method to calculate sum of digits
     static int sumOfDigits(int n) {
