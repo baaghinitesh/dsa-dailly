@@ -1,4 +1,4 @@
 git add .
-git commit -m "Added DSA problem solutions"
+git commit -m "Added DSA Dailly Practice problem solutions"
 git branch -M main
 git push -u origin main
