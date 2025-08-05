@@ -2,3 +2,8 @@ git add .
 git commit -m "Added DSA Dailly Practice problem solutions"
 git branch -M main
 git push -u origin main
+
+
+Day [#] of #100DaysOfCode | Solved [problem name] on [platform] using [language] | Key takeaway: [one-line lesson or challenge] 
+📌 Solution & code:
+#DSA #Java #Learning #LeetCode #geeksforgeeks #CodingJourney #SoftwareDevelopment
