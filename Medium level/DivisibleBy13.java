@@ -49,5 +49,7 @@ public class DivisibleBy13 {
         System.out.println(obj.divby13("1234567890123")); // Example test case
         System.out.println(obj.divby13("130")); // Should return true
         System.out.println(obj.divby13("131")); // Should return false
+        System.out.println(obj.divBy13Second("1234567890123")); // Example test case
+        System.out.println(obj.divBy13Second("130")); // Should return true
     }
 }
