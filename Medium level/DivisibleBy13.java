@@ -7,6 +7,8 @@
 // O(n) — where n is the number of digits in the input string.
 // Space Complexity: O(1) — no additional space used except for a few variables
 
+import java.sql.Time;
+
 public class DivisibleBy13 {
     public boolean divby13(String s) {
         int remainder = 0;
@@ -24,6 +26,21 @@ public class DivisibleBy13 {
                 }
             }
         }
+        return remainder == 0;
+    }
+
+    // This is a more efficient method using modulus directly
+    // It calculates the remainder directly without simulating long division.
+    //     Time	O(n)
+    //     Space	O(1)
+    public boolean divBy13Second(String s) {
+        int remainder = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int digit = s.charAt(i) - '0';
+            remainder = (remainder * 10 + digit) % 13;
+        }
+
         return remainder == 0;
     }
 
