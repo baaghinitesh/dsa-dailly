@@ -7,7 +7,6 @@
 // O(n) — where n is the number of digits in the input string.
 // Space Complexity: O(1) — no additional space used except for a few variables
 
-import java.sql.Time;
 
 public class DivisibleBy13 {
     public boolean divby13(String s) {
