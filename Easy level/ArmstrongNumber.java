@@ -48,5 +48,6 @@ public class ArmstrongNumber {
         System.out.println("153 is 3-digit Armstrong: " + Solution.armstrongNumberForThreeDigits(153));  // true
         System.out.println("1634 is 3-digit Armstrong: " + Solution.armstrongNumberForThreeDigits(1634)); // false
         System.out.println("1634 is general Armstrong: " + Solution.generalArmstrongNumber(1634));        // true
+        System.out.println("9474 is general Armstrong: " + Solution.generalArmstrongNumber(9474));        // true
     }
 }

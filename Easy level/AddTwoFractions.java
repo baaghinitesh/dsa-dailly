@@ -24,5 +24,6 @@ public class AddTwoFractions {
     public static void main(String[] args) {
         GfG gfg = new GfG();
         gfg.addFraction(1, 2, 1, 3); // Example fractions
+        gfg.addFraction(1, 4, 1, 6); // Another example
     }
 }
