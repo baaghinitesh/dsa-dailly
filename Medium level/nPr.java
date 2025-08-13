@@ -19,4 +19,9 @@ public class nPr {
         }
         return factOfnpr;
     }
+    public static void main(String[] args) {
+        System.out.println(calculatenPr1(5, 2)); // Output: 20
+        System.out.println(calculatenPr2(5, 2)); // Output: 20
+        System.out.println(calculatenPr1(10, 3)); // Output: 720
+    }
 }
